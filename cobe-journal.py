@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Require cobe. See https://github.com/pteichman/cobe
+
 from cobe.brain import Brain
 
 # main loop 
