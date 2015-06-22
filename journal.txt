@@ -1,0 +1,12 @@
+User> hello there
+AI> I don't know enough to answer you yet!
+User> let's start a quick training
+AI> I don't know enough to answer you yet!
+User> you are an artificial intelligence
+AI> let's start a quick training
+User> you have been created in june 2015
+AI> you are an artificial intelligence
+User> a transcript of this conversation is made as we speak
+AI> let's start a quick training
+User> so far you know very little, but you are learning fast
+AI> you are an artificial intelligence
