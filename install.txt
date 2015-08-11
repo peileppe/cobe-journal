@@ -1,0 +1,30 @@
+When installing cobe 
+sudo python setup.py install
+============================
+
+Running PyStemmer-1.3.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-WpTTf9/PyStemmer-1.3.0/egg-dist-tmp-gSUd5W
+In file included from /usr/lib/gcc/i686-linux-gnu/4.8/include-fixed/syslimits.h:7:0,
+                 from /usr/lib/gcc/i686-linux-gnu/4.8/include-fixed/limits.h:34,
+                 from libstemmer_c/src_c/../runtime/header.h:2,
+                 from libstemmer_c/src_c/stem_UTF_8_danish.c:4:
+/usr/lib/gcc/i686-linux-gnu/4.8/include-fixed/limits.h:168:61: fatal error: limits.h: No such file or directory
+ #include_next <limits.h>  /* recurse down to the real one */
+                                                             ^
+compilation terminated.
+error: Setup script exited with error: command 'i686-linux-gnu-gcc' failed with exit status 1
+
+
+sudo pip install pyStemmer
+==========================
+compilation terminated.
+
+error: command 'i686-linux-gnu-gcc' failed with exit status 1
+
+----------------------------------------
+Cleaning up...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/pyStemmer/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-g6ZNXC-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_root/pyStemmer
+Storing debug log for failure in /home/p/.pip/pip.log
+
+fix
+===
+sudo apt-get install pyStemmer 
