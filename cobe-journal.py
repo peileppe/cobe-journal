@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 
 # Require cobe. See https://github.com/pteichman/cobe
-
 from cobe.brain import Brain
+import readline
 
 # main loop 
 def main():
+    readline.parse_and_bind("tab: complete")
+    readline.parse_and_bind("set editing-mode vi")
     f= open("journal.txt","a")
     b = Brain("cobe.brain")
     while True:
